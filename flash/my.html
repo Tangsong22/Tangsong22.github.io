@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>堂送-我的页面</title>
+    <style>
+        select {
+            border: 1px solid #eda509;
+            border-radius: 5px;
+            /*清除select聚焦时候的边框颜色*/
+            outline: none;
+            /*设置select的宽高*/
+            width: 248px;
+            height: 30px;
+            line-height: 40px;
+            /*隐藏select的下拉图标*/
+
+            /*通过padding-left的值让文字处于合适位置*/
+            padding-left: 20px;
+            /* 设置下拉图标 */
+            /* background: url("1.jpg") no-repeat right center transparent;*/
+        }
+
+        .guu3， .guu4 {
+            position: absolute;
+            margin-top: 10px;
+        }
+
+        .do1，do3 {
+            position: absolute;
+            margin-top: 10px;
+        }
+
+        .myknow,
+        .myvip,
+        .myget,
+        .mymoney,
+        .myan,
+        .myworry {
+            width: 1200px;
+            height: 200px;
+            background-color: #9b989845;
+            margin-top: 10px;
+            margin-left: 15%;
+        }
+
+        .do3 {
+            margin-right: 100px;
+            float: right;
+        }
+
+        .num {
+            margin-right: 100px;
+            float: right;
+        }
+
+        .sex {
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+        .do1 {
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+
+        .who {
+            margin-left: 50px;
+
+        }
+
+        .do3,
+        .num {
+            margin-top: -20px;
+            margin-right: 200px;
+        }
+
+        .guu4,
+        .guu3,
+        .num1 {
+            margin-top: 20px;
+        }
+
+        a {
+            border: none;
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .pu {
+            margin-left: 40px;
+        }
+
+        input .ii {
+            width: 100px;
+            height: 60px;
+            text-size-adjust: 100px;
+        }
+
+        .guu3a,
+        .guu4a,
+        .num1 {
+            margin-left: 50px;
+
+        }
+
+        .hh {
+            font-size: 16px;
+            margin-top: 25px;
+            margin-left: 260px;
+        }
+
+        .nn {
+            margin-left: 100px;
+        }
+
+        .myvip,
+        .myget {
+            height: 100px;
+        }
+
+        /* .a111 { */
+        /* /* float: left;  */
+        /* width: 100%;
+            height: 1100px;
+            background-attachment: scroll;
+            margin-top: -200px;
+        } */
+
+        body {
+            background-image: url(../img/aa.jpg);
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center top;
+            background-color: rgba(241, 241, 241, 0.917);
+            border-bottom: #fff;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img src="../img/aa.jpg" class="a111"> -->
+
+    <div class="ttt">
+        <h1>我的</h1>
+    </div>
+    <div class="myknow">
+        <h2>我的资料：</h2>
+        <div class="who">用户名：<input type="text" placeholder="昵称"></div>
+        <div class="num">电话：<input type="text"></div>
+        <div class="sex">性别：<input type="radio">男性<input type="radio">女性</div>
+        <div class="do1">
+            <form class="do2">
+                就读大学：
+                <select>
+                    <option>默认定位 </option>
+                    <option>四川轻化工大学（李白河校区）</option>
+                    <option>四川轻化工大学（汇南校区）</option>
+                    <option>四川卫生康复职业学院</option>
+                </select>
+            </form>
+        </div>
+        <div class="do3">
+            <form class="do4">
+                年级：
+                <select>
+                    <option>2022级 </option>
+                    <option>2021级</option>
+                    <option>2020级</option>
+                    <option>2019级</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="myvip">
+        <p>
+        <h2>会员等级：</h2>
+        </p>
+        <a href="VIP.html" target="_self">点击查看VIP详情</a>
+
+    </div>
+    <div class="mymoney">
+        <h2>我的支付方式：</h2>
+        <div class="guu3">
+            <form class="guu3a">
+                付款方式选择：
+                <select>
+                    <option>支持先吃后付 </option>
+                    <option>微信付款</option>
+                    <option>支付宝付款</option>
+                    <option>银行卡付款</option>
+                </select>
+            </form>
+        </div>
+        <div class="guu4">
+            <form class="guu4a">
+                付款操作选择：
+                <select>
+                    <option>支持免密支付 </option>
+                    <option>密码支付</option>
+                    <option>指纹支付</option>
+                    <option>人脸支付</option>
+                </select>
+            </form>
+        </div>
+        <div class="num1">绑定银行卡或手机号<input type="text"></div>
+    </div>
+    </div>
+    <div class="myget">
+        <h2>我的订单：</h2>
+        <div class="nn">你目前还没有订单，点击此处前往 <a href="index1.html" target="_self">
+                <font color="bule">添加。</font>
+            </a></div>
+    </div>
+    <div class="myworry">
+        <h2>我的问题：</h2>
+        <div class="pu"><input type="text" placeholder="输入想要提交的问题" style='height:60px; width:300px;'>
+            <div class="hh"><input type="submit" style="color: rgb(20, 20, 20);"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
